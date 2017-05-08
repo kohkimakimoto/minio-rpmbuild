@@ -1,0 +1,12 @@
+# Local export path.
+MINIO_VOLUMES="/var/lib/minio/volume"
+
+# Use if you want to run Minio on a custom port.
+MINIO_OPTS="--address :9000  --config-dir /var/lib/minio/config"
+
+# Auth credential for object storage and web access.
+#MINIO_ACCESS_KEY="admin"
+#MINIO_SECRET_KEY="password"
+
+# Enable or disable access to web UI.
+#MINIO_BROWSER=off

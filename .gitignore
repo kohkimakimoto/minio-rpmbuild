@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.tags*
+._*
+*.iml
+.vscode/
+dist/
+SOURCES/minio
+SOURCES/minio-client
+
+!.gitkeep
